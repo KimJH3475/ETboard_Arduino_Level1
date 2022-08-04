@@ -11,7 +11,7 @@
 int pushButton = D6;                          // ET보드의 빨간 버튼 : D6
 void setup() {
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(pushButton, INPUT);                 // 버튼 입력모드 설정
 }
 
